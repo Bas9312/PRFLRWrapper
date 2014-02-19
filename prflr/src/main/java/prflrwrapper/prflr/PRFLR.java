@@ -51,7 +51,7 @@ public class PRFLR {
     private static AtomicInteger counter = new AtomicInteger(0);
 
     private static String TAG = "PRFLR";
-    private static boolean init = false;
+    public static boolean init = false;
 
     /**
      * Connects to prflr.org and starts communication.
